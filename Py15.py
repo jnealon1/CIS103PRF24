@@ -57,8 +57,8 @@ dev_1 = developer('Corey', 'Schafer', 50000, 'Python')
 dev_2 = developer('Test', 'Employee', 60000, 'Java')
 
 mgr_1 = Manager ('Sue', 'Smith' , 90000, [dev_1])
-#mgr_1.add_emp(dev_2)
-#mgr_1.print_emps()
+mgr_1.add_emp(dev_2)
+mgr_1.print_emps()
 
 
 
