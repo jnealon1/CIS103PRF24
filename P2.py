@@ -1,3 +1,4 @@
+#
 width=float(input ('enter a width'))
 height =float(input ('enter a height'))
 total= width * height
